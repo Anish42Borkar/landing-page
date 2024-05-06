@@ -1,6 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 @tailwind base;
 @tailwind components;
+
+@font-face {
+  font-family: "ethnocentric";
+  src: url("/fonts/ethnocentric/ethnocentric.rg-regular.otf");
+}
+
 @tailwind utilities;
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -30,4 +45,144 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.hero {
+  width: 100%;
+  height: 120vh;
+  background-image: url("/assets/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.nav-link {
+  position: relative;
+  /* z-index: 100; */
+}
+
+.nav-link:hover::before {
+  content: "";
+  width: 100%;
+  height: 5px;
+  background-color: #cb00ff;
+  position: absolute;
+  top: calc(-1rem - 8px);
+  border-radius: 12px;
+}
+
+.nav-link:hover::after {
+  content: linear-gradient(to bottom, #cb00ff 50%, #8d36df 0%);
+  filter: blur(1rem);
+  width: 100%;
+  height: 1.5rem;
+  /* background-color: linear-gradient(to bottom, #cb00ff 50%, #8d36df 0%); */
+
+  position: absolute;
+  top: calc(-1rem - 3px);
+  left: 0;
+  /* z-index: 1; */
+}
+
+.ethnocentric-font {
+  font-family: "ethnocentric";
+}
+
+.hero-font {
+  font-weight: 400;
+  line-height: 84px;
+  letter-spacing: 0.08em;
+  text-align: left;
+}
+
+.hero-font.glow {
+  text-shadow: 0 0 10px #e79fff, 0 0 20px #e79fff;
+}
+
+.avatar-holder > img:not(:first-child) {
+  margin-left: -0.5rem;
+}
+
+.time-card {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 10px;
+  opacity: 0px;
+}
+
+.time-card-gradient {
+  background: linear-gradient(180deg, #cb00ff, #8d36df, #000);
+}
+
+.btn-gradient {
+  color: white;
+  background: linear-gradient(to left, #cb00ff, #8d36df);
+}
+
+.join {
+  width: 100%;
+  height: 5rem;
+  border-radius: 200px;
+  background-color: #fff;
+  color: black;
+}
+
+.speakers {
+  background: linear-gradient(to left, #5603b4, #cb00ff);
+}
+
+/* .clip-polygon {
+  clip-path: ellipse(100% 55% at 48% 4%);
+} */
+
+.curved {
+  border-top-left-radius: 100% 20%;
+  border-top-right-radius: 90% 20%;
+  background-color: white;
+
+  position: relative;
+  z-index: 10;
+}
+
+.custom-shape-divider-top-1714972918 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.details {
+  width: 100%;
+  /* height: 36rem; */
+  background-image: url("/assets/detailsGroup.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+}
+
+.price-card-gradient {
+  background: linear-gradient(to bottom, #cb00ff, #8d36df);
+}
+
+.we-offer {
+  background-image: url("/assets/details.png");
+  /* background-repeat: no-repeat; */
+  background-size: contain;
+  z-index: -1;
+}
+
+.dont-miss {
+  background-image: linear-gradient(to bottom, #cb00ff, #8d36df);
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+}
+
+.footer-section {
+  background-image: url("/assets/details.png");
+  /* background-repeat: no-repeat; */
+  background-size: contain;
+  z-index: -1;
 }
