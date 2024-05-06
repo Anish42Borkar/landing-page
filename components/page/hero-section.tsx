@@ -1,15 +1,17 @@
+"use client";
 import Image from "next/image";
 import React from "react";
 import TimeCard from "../timeCard";
 import useCountdownTimer from "@/hooks/useCountdownTimer";
 import Button from "../button";
+export const dynamic = "force-dynamic";
 
 const HeroSection = () => {
   const targetDate = new Date();
   targetDate.setDate(targetDate.getDate() + 7);
   const { days, hours, minutes, seconds } = useCountdownTimer(targetDate);
   return (
-    <section className="hero flex justify-center items-center xl:pt-24   relative">
+    <section className="hero flex justify-center items-center pt-16 px-5 xl:pt-24   relative">
       <div className="">
         <p className="ethnocentric-font hero-font text-4xl xl:text-[70px]">
           San Francisco
@@ -17,7 +19,7 @@ const HeroSection = () => {
         <p className="ethnocentric-font hero-font glow text-4xl xl:text-[70px]">
           AI Conference!
         </p>
-        <p className="w-full md:w-2/4 text-base mt-7">
+        <p className="w-full md:w-2/4 md:text-base mt-7">
           Join us for an extraordinary event at the forefront of artificial
           intelligence innovation.
         </p>
@@ -51,7 +53,7 @@ const HeroSection = () => {
                 width={15}
                 height={15}
                 alt="arrow"
-                src="/assets/icons/Arrow 2.png"
+                src="/assets/icons/arrow 2.png"
               />
             </span>
           </p>
@@ -91,8 +93,8 @@ const HeroSection = () => {
           />
         </div>
 
-        <div className="join flex flex-col md:flex-row justify-center items-center mt-7">
-          <p className="font-semibold">
+        <div className="join flex flex-col md:flex-row justify-center items-center mt-5">
+          <p className="font-semibold text-sm md:text-base">
             Join us at 7th San Francisco AI Conference! July 5-9 2018. &nbsp;
           </p>
           <Button

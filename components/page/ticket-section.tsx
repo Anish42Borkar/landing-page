@@ -15,7 +15,7 @@ const TicketSection = () => {
             rounded={false}
             gray
             label="VIEW ALL TICKETS"
-            icon="/assets/icons/Arrow 2.png"
+            icon="/assets/icons/arrow 2.png"
           />
         </div>
 

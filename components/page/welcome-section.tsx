@@ -22,7 +22,7 @@ const WelcomeSection = () => {
           </div>
         </div>
         <div className="right">
-          <p className="text-[0.93rem]">
+          <p className="text-[0.93rem] px-4">
             Join us for an extraordinary event at the forefront of artificial
             intelligence innovation. Founded by a passionate group of
             technologists and engineers, the San Francisco AI Conference is the

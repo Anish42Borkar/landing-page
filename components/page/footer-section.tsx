@@ -12,7 +12,7 @@ const FooterSection = () => {
       className="footer-section  flex flex-col items-center py-10"
       id="contact-us"
     >
-      <div className=" flex flex-col lg:flex-row justify-around  items-center w-[80rem] mt-10">
+      <div className=" flex flex-col lg:flex-row justify-around  items-center w-[80%] mt-10">
         <p className="text-4xl">
           COUNT EVERY <br />{" "}
           <span className="text-[#8D36DF]">SECOND UNTIL EVENT</span>

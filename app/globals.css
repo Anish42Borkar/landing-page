@@ -31,6 +31,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -107,7 +111,6 @@ body {
   width: 5rem;
   height: 5rem;
   border-radius: 10px;
-  opacity: 0px;
 }
 
 .time-card-gradient {
@@ -185,4 +188,8 @@ body {
   /* background-repeat: no-repeat; */
   background-size: contain;
   z-index: -1;
+}
+
+.burger {
+  filter: invert(1);
 }
