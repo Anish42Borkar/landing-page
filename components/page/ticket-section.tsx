@@ -15,7 +15,7 @@ const TicketSection = () => {
             rounded={false}
             gray
             label="VIEW ALL TICKETS"
-            icon="/assets/icons/arrow 2.png"
+            icon="/assets/icons/arrow2.png"
           />
         </div>
 
@@ -44,7 +44,7 @@ const TicketSection = () => {
             icon="/assets/icons/premium.png"
             gradient
             btnColor="#fff"
-            btnIcon="/assets/icons/arrow 3.png"
+            btnIcon="/assets/icons/arrow3.png"
             type="PREMIUM"
             title="Conference & Workshop"
             price="$950"

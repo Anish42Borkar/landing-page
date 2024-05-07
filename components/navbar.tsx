@@ -53,7 +53,7 @@ const Navbar = () => {
       />
 
       <div className="hidden md:block">
-        <Button label="BUY TICKETS" icon="/assets/icons/arrow 2.png" />
+        <Button label="BUY TICKETS" icon="/assets/icons/arrow2.png" />
       </div>
     </nav>
   );

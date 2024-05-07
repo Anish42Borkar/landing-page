@@ -28,7 +28,7 @@ const DontMissSection = () => {
           </p>
 
           <div className="mt-10 flex justify-center">
-            <Button label="REGISTER NOW" icon="/assets/icons/arrow 2.png" />
+            <Button label="REGISTER NOW" icon="/assets/icons/arrow2.png" />
           </div>
         </div>
       </div>

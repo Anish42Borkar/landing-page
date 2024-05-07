@@ -6,7 +6,7 @@ import TextButton from "./textButton";
 const PriceCard = ({
   gradient = false,
   btnColor = "#8D36DF",
-  btnIcon = "/assets/icons/arrow 2.png",
+  btnIcon = "/assets/icons/arrow2.png",
   type,
   desc,
   title,

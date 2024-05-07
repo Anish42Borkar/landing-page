@@ -53,7 +53,7 @@ const HeroSection = () => {
                 width={15}
                 height={15}
                 alt="arrow"
-                src="/assets/icons/arrow 2.png"
+                src="/assets/icons/arrow2.png"
               />
             </span>
           </p>
@@ -85,23 +85,15 @@ const HeroSection = () => {
           <TimeCard label="SECONDS" value={seconds} />
         </div>
         <div className="flex gap-5 mt-7">
-          <Button label="BUY TICKETS" icon="/assets/icons/arrow 2.png" />
-          <Button
-            gradient
-            label="READ  MORE"
-            icon="/assets/icons/arrow 3.png"
-          />
+          <Button label="BUY TICKETS" icon="/assets/icons/arrow2.png" />
+          <Button gradient label="READ  MORE" icon="/assets/icons/arrow3.png" />
         </div>
 
         <div className="join flex flex-col md:flex-row justify-center items-center mt-5">
           <p className="font-semibold text-sm md:text-base">
             Join us at 7th San Francisco AI Conference! July 5-9 2018. &nbsp;
           </p>
-          <Button
-            gradient
-            label="READ  MORE"
-            icon="/assets/icons/arrow 3.png"
-          />
+          <Button gradient label="READ  MORE" icon="/assets/icons/arrow3.png" />
         </div>
       </div>
     </section>
