@@ -3,7 +3,7 @@ import React from "react";
 
 const WelcomeSection = () => {
   return (
-    <div className=" py-28 w-full bg-white text-black flex justify-center items-center">
+    <div className=" py-28 px-5 w-full bg-white text-black flex justify-center items-center">
       <div className=" w-[60rem] flex flex-wrap md:flex-nowrap justify-center  gap-8">
         <div className="left">
           <p className="text-sm text-[#C7C0B6] ethnocentric-font">WELCOME TO</p>

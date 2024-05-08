@@ -4,7 +4,7 @@ import PriceCard from "../priceCard";
 
 const TicketSection = () => {
   return (
-    <div className="bg-white flex text-black justify-center px-5 md:px-0 md:py-28">
+    <div className="bg-white flex text-black justify-center px-5 md:py-28">
       <div className="  w-[60rem] ">
         <div className="flex flex-col md:flex-row justify-between md:items-center">
           <p className=" text-2xl md:text-4xl font-medium">

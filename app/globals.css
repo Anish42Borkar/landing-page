@@ -118,12 +118,6 @@ body {
   background: linear-gradient(to left, #cb00ff, #8d36df);
 }
 
-.join {
-  width: 100%;
-  background-color: #fff;
-  color: black;
-}
-
 .speakers {
   background: linear-gradient(to left, #5603b4, #cb00ff);
 }

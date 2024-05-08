@@ -89,8 +89,8 @@ const HeroSection = () => {
           <Button gradient label="READ  MORE" icon="/assets/icons/arrow3.png" />
         </div>
 
-        <div className="join text-center py-2   md:h-16 rounded-full flex flex-col md:flex-row justify-center items-center mt-5">
-          <p className="font-semibold text-xs md:text-base">
+        <div className=" text-center py-4 bg-transparent md:bg-white md:text-black   md:h-16 rounded-full flex flex-col md:flex-row justify-center items-center mt-5">
+          <p className="font-semibold text-xs md:text-base mb-2 md:mb-0">
             Join us at 7th San Francisco AI Conference! July 5-9 2018. &nbsp;
           </p>
           <Button gradient label="READ  MORE" icon="/assets/icons/arrow3.png" />
