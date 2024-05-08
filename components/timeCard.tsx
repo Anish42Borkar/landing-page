@@ -14,10 +14,10 @@ const TimeCard = ({
     <div
       className={`time-card ${
         !transparent && "time-card-gradient"
-      } relative flex justify-center items-center`}
+      } w-14 h-14 md:w-20 md:h-20 relative flex justify-center items-center`}
     >
-      <p className="text-4xl font-semibold">{value}</p>
-      <span className="absolute text-xs text-[#626F7E] left-1/2 bottom-1 -translate-x-1/2">
+      <p className="text-2xl md:text-4xl font-semibold">{value}</p>
+      <span className="absolute text-[0.6rem] text-[#626F7E] left-1/2 bottom-1 -translate-x-1/2">
         {label}
       </span>
     </div>

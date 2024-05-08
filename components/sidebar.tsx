@@ -10,7 +10,7 @@ const Sidebar = () => {
   return (
     <div
       className={`w-60 h-screen fixed  ${
-        sidebar ? "translate-x-0" : "-translate-x-full"
+        sidebar ? "translate-x-0" : "-translate-x-[100vw]"
       } top-0 bg-white z-40`}
     >
       <Image

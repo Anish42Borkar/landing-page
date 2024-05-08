@@ -4,19 +4,21 @@ import PriceCard from "../priceCard";
 
 const TicketSection = () => {
   return (
-    <div className="bg-white flex text-black justify-center  py-28">
+    <div className="bg-white flex text-black justify-center px-5 md:px-0 md:py-28">
       <div className="  w-[60rem] ">
-        <div className="flex justify-between items-center">
-          <p className="text-4xl font-medium">
+        <div className="flex flex-col md:flex-row justify-between md:items-center">
+          <p className=" text-2xl md:text-4xl font-medium">
             CHOOSE YOUR{" "}
             <span className="text-[#8D36DF] font-semibold">TICKET</span>{" "}
           </p>
-          <Button
-            rounded={false}
-            gray
-            label="VIEW ALL TICKETS"
-            icon="/assets/icons/arrow2.png"
-          />
+          <div className="">
+            <Button
+              rounded={false}
+              gray
+              label="VIEW ALL TICKETS"
+              icon="/assets/icons/arrow2.png"
+            />
+          </div>
         </div>
 
         <div className="flex items-center justify-between mt-4 ">

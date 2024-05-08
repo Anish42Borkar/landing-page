@@ -36,7 +36,7 @@ const SpeakersSection = () => {
           </p>
         </div>
       </div>
-      <div className="curved -mt-2 md:-mt-20 lg:-mt-24 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 justify-center py-16 px-52">
+      <div className="curved  md:-mt-20 lg:-mt-24 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 justify-center md:py-16 md:px-52">
         {data.map((img) => (
           <div className="flex  justify-center" key={img}>
             <PhotoCard img={img} />

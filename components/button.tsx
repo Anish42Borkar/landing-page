@@ -18,9 +18,9 @@ const Button = ({
     <button
       className={`${
         gradient ? "btn-gradient" : gray ? "bg-[#F1F1F1]" : "bg-white"
-      } cursor-pointer px-8 py-3 font-medium ${
+      } cursor-pointer px-5 py-3 md:px-8 font-medium ${
         rounded && "rounded-full"
-      } text-sm text-black flex gap-2 items-center`}
+      } text-xs md:text-sm text-black flex gap-2 items-center`}
       type="button"
     >
       {icon && <Image width={10} height={20} src={icon} alt="icon" />}
