@@ -1,5 +1,5 @@
 "use client";
-import Navbar, { list } from "@/components/navbar";
+import Navbar from "@/components/navbar";
 import BrandSection from "@/components/page/brand-section";
 import DetailSection from "@/components/page/detail-section";
 import DontMissSection from "@/components/page/dont-miss-section";
@@ -11,8 +11,7 @@ import WelcomeSection from "@/components/page/welcome-section";
 import WhatWeOfferSection from "@/components/page/what-we-offer-section";
 import Sidebar from "@/components/sidebar";
 import SidebarProvider from "@/provider/sidebar-provider";
-import Image from "next/image";
-import Link from "next/link";
+import Head from "next/head";
 // import dynamic from "next/dynamic";
 
 export const dynamic = "force-dynamic";
@@ -24,6 +23,9 @@ export const dynamic = "force-dynamic";
 export default function Home() {
   return (
     <main className="relative xl:container mx-auto">
+      <Head>
+        <title>SFAI</title>
+      </Head>
       <div className="z-30  ">
         <SidebarProvider>
           <Navbar />

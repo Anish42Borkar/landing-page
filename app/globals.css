@@ -181,3 +181,52 @@ body {
 .burger {
   filter: invert(1);
 }
+
+.curve-parent {
+  position: relative;
+  /* background: pink; */
+  min-height: 50vh;
+}
+.custom-shape-divider-bottom-1715246983 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1715246983 svg {
+  position: relative;
+  display: block;
+  width: calc(144% + 1.3px);
+  height: 76px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1715246983 .shape-fill {
+  fill: #ffffff;
+}
+
+.custom-shape-divider-bottom-1715247561 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1715247561 svg {
+  position: relative;
+  display: block;
+  width: calc(105% + 1.3px);
+  height: 39px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1715247561 .shape-fill {
+  fill: #ffffff;
+}
